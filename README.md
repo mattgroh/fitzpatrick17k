@@ -6,7 +6,7 @@ We thank Scale AI for providing Fitzpatrick annotations for all images in this d
 
 # Download the dataset
 
-You can find the Fitzpatrick annotations in [fitzpatrick17k.csv](https://github.com/mattgroh/fitzpatrick17k/blob/main/fitzpatrick17k.csv). You can download the images from their original source, which is shared in the `url` column of the Fitzpatrick annotations .csv. Alternatively, you can email us, and we can provide a link.
+You can find the Fitzpatrick annotations in [fitzpatrick17k.csv](https://github.com/mattgroh/fitzpatrick17k/blob/main/fitzpatrick17k.csv). You can download the images from their original source, which is shared in the `url` column of the Fitzpatrick annotations .csv. Alternatively, fill out this [form](https://forms.gle/4fS35Kg8x9pkG2Bn9) and contact us and we can provide a link to all the images. 
 
 # Replicate our analysis
 
