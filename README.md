@@ -3,7 +3,7 @@
 ------------
 
 ## Overview
-[![fitzpatrick17k](https://pbs.twimg.com/media/E4QqXfQUYAEfNco?format=jpg&name=large)](youtu.be/bizJpy5VQmQ)
+[![fitzpatrick17k](https://pbs.twimg.com/media/E4QqXfQUYAEfNco?format=jpg&name=large)](https://youtu.be/bizJpy5VQmQ)
 
 We annotated 16,577 clinical images sourced from two dermatology atlases — DermaAmin and Atlas Dermatologico — with Fitzpatrick skin type labels. The Fitzpatrick labeling system, while not perfect, is a six-point scale originally developed for classifying sun reactivity of skin phenotype. The Fitzpatrick scale served as the basis for skin color in emojis and, more recently, the Fitzpatrick scale has been used in computer vision applications to evaluate algorithmic fairness and model accuracy. The annotated images represent 114 skin conditions with at least 53 images and a maximum of 653 images per skin condition. 
 
