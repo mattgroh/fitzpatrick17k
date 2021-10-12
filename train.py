@@ -217,7 +217,7 @@ if __name__ == '__main__':
     df["high"] = df['three_partition_label'].astype('category').cat.codes
     df["hasher"] = df["md5hash"]
 
-    for holdout_set in ["expert_select","random_holdout", "a12", "a34","a56", "dermaamin","br"] 
+    for holdout_set in ["expert_select","random_holdout", "a12", "a34","a56", "dermaamin","br"]:
         if holdout_set == "expert_select":
             df2 = df
             train = df2[df2.qc.isnull()]
