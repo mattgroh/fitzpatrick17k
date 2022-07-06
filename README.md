@@ -5,16 +5,20 @@
 ## Overview
 [![fitzpatrick17k](https://pbs.twimg.com/media/E4QqXfQUYAEfNco?format=jpg&name=large)](https://youtu.be/bizJpy5VQmQ)
 
-We annotated 16,577 clinical images sourced from two dermatology atlases — DermaAmin and Atlas Dermatologico — with Fitzpatrick skin type labels. The Fitzpatrick labeling system, while not perfect, is a six-point scale originally developed for classifying sun reactivity of skin phenotype. The Fitzpatrick scale served as the basis for skin color in emojis and, more recently, the Fitzpatrick scale has been used in computer vision applications to evaluate algorithmic fairness and model accuracy. The annotated images represent 114 skin conditions with at least 53 images and a maximum of 653 images per skin condition. 
+We annotated 16,577 clinical images sourced from two dermatology atlases — DermaAmin and Atlas Dermatologico — with Fitzpatrick skin type labels with two data annotation services: Scale AI and Centaur Labs. The Fitzpatrick labeling system, while not perfect, is a six-point scale originally developed for classifying sun reactivity of skin phenotype. The Fitzpatrick scale served as the basis for skin color in emojis and, more recently, the Fitzpatrick scale has been used in computer vision applications to evaluate algorithmic fairness and model accuracy. The annotated images represent 114 skin conditions with at least 53 images and a maximum of 653 images per skin condition. 
 
 ![fitzpatrick](https://www.datocms-assets.com/45562/1623693822-blogmitskintypes01.png)
 
 
 We've included the original image sources, the training script `train.py`, and a notebook to compare Fitzpatrick annotations with individual typology angle scores. You can read the dataset and our analysis in our [paper](https://arxiv.org/abs/2104.09957).
 
-We thank Scale AI for providing Fitzpatrick annotations for all images in this dataset pro bono.
+We thank Scale AI and Centaur Labs for providing Fitzpatrick Skin Type annotations for all images in this dataset for free.
 
-## Usage
+## Updates July 7 2022
+
+Given the subjectivity of annotating Fitzpatrick Skin Type in images showing skin disease, we evaluated how well experts, crowds, and an algorithm compare with respect to inter-rater reliability. You can find replication files for this analysis in the `annotation_evaluation` folder.
+
+## Data Usage
 
 ------------
 
