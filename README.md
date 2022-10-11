@@ -36,11 +36,21 @@ You can check out our comparison of Fitzpatrick annotations and individual typol
 
 ### How to cite this dataset and paper
 ```
-@article{groh2021evaluating,
-  title={Evaluating Deep Neural Networks Trained on Clinical Images in Dermatology with the Fitzpatrick 17k Dataset},
+@inproceedings{groh2021evaluating,
+  title={Evaluating deep neural networks trained on clinical images in dermatology with the fitzpatrick 17k dataset},
   author={Groh, Matthew and Harris, Caleb and Soenksen, Luis and Lau, Felix and Han, Rachel and Kim, Aerin and Koochek, Arash and Badri, Omar},
-  journal={arXiv preprint arXiv:2104.09957},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={1820--1828},
   year={2021}
+}
+
+And the second paper:
+
+@article{groh2022towards,
+  title={Towards transparency in dermatology image datasets with skin tone annotations by experts, crowds, and an algorithm},
+  author={Groh, Matthew and Harris, Caleb and Daneshjou, Roxana and Badri, Omar and Koochek, Arash},
+  journal={arXiv preprint arXiv:2207.02942},
+  year={2022}
 }
 ```
 
