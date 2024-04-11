@@ -49,8 +49,12 @@ And the second paper:
 @article{groh2022towards,
   title={Towards transparency in dermatology image datasets with skin tone annotations by experts, crowds, and an algorithm},
   author={Groh, Matthew and Harris, Caleb and Daneshjou, Roxana and Badri, Omar and Koochek, Arash},
-  journal={arXiv preprint arXiv:2207.02942},
-  year={2022}
+  journal={Proceedings of the ACM on Human-Computer Interaction},
+  volume={6},
+  number={CSCW2},
+  pages={1--26},
+  year={2022},
+  publisher={ACM New York, NY, USA}
 }
 ```
 
